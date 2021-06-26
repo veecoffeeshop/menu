@@ -72,6 +72,12 @@ $(function() {
 			}
 		}) 
 
+		$('body').on('click', '.js-phone-toggle', function(e) {
+			
+
+				$('body').removeClass('offcanvas-menu');
+			
+		}) 
 		// click outisde offcanvas
 		$(document).mouseup(function(e) {
 	    var container = $(".site-mobile-menu");
